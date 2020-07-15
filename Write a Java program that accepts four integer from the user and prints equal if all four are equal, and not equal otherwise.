@@ -1,0 +1,24 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter the First Name: ");
+	int a = sc.nextInt();
+	System.out.println("Enter the Second Name: ");
+	int b = sc.nextInt();
+	System.out.println("Enter the Third Name: ");
+	int c = sc.nextInt();
+	System.out.println("Enter the Fourth Name: ");
+	int d = sc.nextInt();
+	
+	if(a==b && b==c && c==d)
+	{
+	    System.out.println("Numbers are equal.");
+    }
+	else
+	{
+		System.out.println("Numbers are not equal!");
+	}
+	}
+}
