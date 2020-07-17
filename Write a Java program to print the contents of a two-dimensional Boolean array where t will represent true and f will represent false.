@@ -1,0 +1,25 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+    Boolean ar[][]={{true, false, true},{false, true, false}};
+    int row = ar.length;
+    int column=ar[0].length;
+    for(int i=0;i<row;i++)
+    {
+        for(int j=0;j<column;j++)
+        {
+            if(ar[i][j])
+            {
+                System.out.print(" t ");
+			}
+			else
+			{
+				System.out.print(" f ");
+			}
+        }
+    System.out.println();
+    }
+	}
+}
